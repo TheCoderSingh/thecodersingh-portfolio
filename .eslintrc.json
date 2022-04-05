@@ -21,7 +21,14 @@
   "rules": {
     "react/prop-types": 0,
     "no-console": 1,
-    "react-hooks/rules-of-hooks": "error"
+    "react-hooks/rules-of-hooks": "error",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ]
   },
   "settings": {
     "react": {
