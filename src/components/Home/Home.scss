@@ -1,0 +1,84 @@
+@import "../../index.scss";
+
+.home {
+    height: calc(100vh - 70px);
+    
+    .home-sections {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        .home-left {
+            .diamond {
+                position: relative;
+    
+                .diamond-image {
+                    position: relative;
+                    left: -210px;
+                    max-width: 80%;
+                }
+    
+                .diamond-text {
+                    position: absolute;
+                    top: 21%;
+                    left: 8%;
+    
+                    h2, h3 {
+                        font-family: "Raleway";
+                        margin: 0;
+                    }
+    
+                    h3 {
+                        font-size: 2.8em;
+                    }
+    
+                    h2 {
+                        font-size: 4em;
+    
+                        .light-text {
+                            color: $secondary;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .home-right {
+            padding-right: 25px;
+            padding-top: 200px;
+    
+            .jas-picture-area {
+                position: relative;
+            }
+    
+            .jas-picture-bg {
+                width: 450px;
+                height: 450px;
+                background: $secondary;
+                border-radius: 50%;
+            }
+    
+            .jas-picture {
+                width: 450px;
+                height: 600px;
+                position: absolute;
+                top: -150px;
+            }
+        }
+    }
+
+    .contact-btn {
+        width: 160px;
+        height: 36px;
+        border: 1px solid;
+        text-align: center;
+        padding-top: 10px;
+        margin-left: 120px;
+        margin-top: 20px;        
+
+        span {
+            font-family: "Raleway";
+            font-size: 1.4em;
+        }
+    }
+}
