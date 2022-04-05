@@ -1,0 +1,66 @@
+.header {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+
+  .header-left {
+    display: flex;
+    align-items: center;
+
+    .logo {
+      height: 50px;
+      margin-right: 12px;
+    }
+
+    h1 {
+      font-size: 1.3em;
+      font-weight: normal;
+    }
+  }
+
+  .header-right {
+    .menu {
+      display: flex;
+
+      a {
+        font-weight: normal;
+        font-size: 1.3em;
+        color: #000;
+        text-decoration: none;
+      }
+
+      a:not(:last-of-type) {
+        margin-right: 25px;
+      }
+    }
+
+    .menu-mobile {
+      display: none;
+      cursor: pointer;
+
+      .menu-icon {
+        height: 40px;
+      }
+    }
+  }
+
+  h1,
+  a {
+    font-family: "Raleway";
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .header {
+    .header-right {
+      .menu {
+        display: none;
+      }
+      .menu-mobile {
+        display: block;
+      }
+    }
+  }
+}
