@@ -82,3 +82,220 @@
         }
     }
 }
+
+@media only screen and (max-width: 1300px) {
+    .home {
+        .home-sections {
+            .home-left {
+                .diamond {
+                    .diamond-image {
+                        max-width: 78%;
+                    }
+
+                    .diamond-text {
+                        h3 {
+                            font-size: 2.5em;
+                        }
+
+                        h2 {
+                            font-size: 3.8em;    
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .home {
+        .diamond-text {
+            h2 {           
+                font-size: 3.5em !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    .home {
+        .home-sections {
+            .home-left {
+                .diamond {
+                    .diamond-image {
+                        max-width: 76%;
+                    }
+
+                    .diamond-text {
+                        h3 {
+                            font-size: 2.2em !important;
+                        }
+
+                        h2 {
+                            font-size: 2.9em !important;    
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1218px) {
+    .home {
+        .home-sections {
+            .home-left {
+                .diamond {
+                    .diamond-image {
+                        max-width: 65%;
+                        left: -160px;
+                    }
+
+                    .diamond-text {
+                        h3 {
+                            font-size: 1.9em !important;
+                        }
+
+                        h2 {
+                            font-size: 2.5em !important;    
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    .home {
+        .home-sections {
+            .home-left {
+                .diamond {
+                    .diamond-image {
+                        max-width: 65%;
+                        left: -130px;
+                    }
+
+                    .diamond-text {
+                        h3 {
+                            font-size: 1.7em !important;
+                        }
+
+                        h2 {
+                            font-size: 2.3em !important;    
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .home {
+        .home-sections {
+            .home-left {
+                .diamond {
+                    .diamond-image {
+                        max-width: 65%;
+                        left: -100px;
+                    }
+
+                    .diamond-text {
+                        h3 {
+                            font-size: 1.4em !important;
+                        }
+
+                        h2 {
+                            font-size: 2.1em !important;    
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .home {
+        .home-sections {
+            .home-left {
+                .diamond {
+                    .diamond-image {
+                        max-width: 65%;
+                        left: -80px;
+                    }
+                }
+            }
+
+            .home-right {
+                .jas-picture-area {
+                    .jas-picture-bg {
+                        width: 300px;
+                        height: 300px;
+                    }
+
+                    .jas-picture {
+                        width: 300px;
+                        height: 400px;
+                        margin-top: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    .home {
+        .home-sections {
+            flex-wrap: wrap;
+
+            .home-left {
+                width: 100%;
+
+                .diamond {
+                    .diamond-image {
+                        max-width: 65%;
+                        left: -180px;
+                    }
+
+                    .diamond-text {
+                        h3 {
+                            font-size: 2.5em !important;
+                        }
+
+                        h2 {
+                            font-size: 3.8em !important;
+
+                            br:not(:last-of-type) {
+                                display: none;
+                            }
+
+                            .light-text:first-of-type {
+                                color: $secondary;
+                            }
+
+                            .light-text:nth-of-type(2) {
+                                color: #000;
+                            }
+
+                            .light-text:nth-of-type(3) {
+                                color: secondary;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .home-right {
+                width: 100%;
+
+                .jas-picture-area img {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+        }
+    }
+}

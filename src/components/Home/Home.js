@@ -14,7 +14,8 @@ const Home = () => {
                             <h2>
                                 <span className="light-text">I develop</span> high{" "}<br />
                                 <span className="light-text">quality web</span> and{" "}<br />
-                                <span className="light-text">mobile<br /> applica</span>tions
+                                <span className="light-text">mobile</span>{" "}<br />
+                                <span className="light-text">applica</span>tions
                             </h2>
                         </div>
                     </div>
@@ -29,7 +30,7 @@ const Home = () => {
             <div className="contact-btn">
                 <span>Get in touch</span>
             </div>
-        </div>
+        </div >
     );
 };
 
