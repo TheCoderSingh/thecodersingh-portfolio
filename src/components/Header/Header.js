@@ -1,5 +1,5 @@
-import Logo from "../assets/Logo.png";
-import MenuIcon from "../assets/Menu.png";
+import Logo from "../../assets/Logo.png";
+import MenuIcon from "../../assets/Menu.png";
 import "./Header.scss";
 
 const Header = () => {
